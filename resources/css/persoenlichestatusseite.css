@@ -1,0 +1,53 @@
+.news-item
+{
+    padding:4px 4px;
+    margin:0px;
+    border-bottom:1px dotted #555;
+}
+
+#news-box {
+
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.panel-default > .panel-heading {
+    background-color: #222;
+    color: #9d9d9d;
+}
+.panel-default {
+    border-color: #222;
+    border-left-color: #222222;
+}
+
+
+
+@media(min-width:1200px) {
+    #aktuelle-ereignisse .panel-body {
+        height: 203.891px;
+        max-height: 203.891px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #aktuelle-ereignisse .panel-body {
+        height: 209.594px;
+        max-height: 209.594px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    #aktuelle-ereignisse .panel-body {
+        height: 225.438px;
+        max-height: 224.438px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    #aktuelle-ereignisse .panel-body {
+        max-height: 224.438px;
+    }
+}

@@ -1,0 +1,62 @@
+
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+
+.start_content {
+    position: relative;
+    top: 30%;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+}
+
+.start_content__heading {
+    margin-bottom: 24px;
+    color: rgb(39,39,39);
+    font-size: 44px;
+}
+
+.start_content__teaser {
+    margin-bottom: 24px;
+    color: rgb(89,89,89);
+    font-size: 22px;
+}
+
+.start_content__cta {
+    display: inline-block;
+    margin: 0;
+    padding: 12px 48px;
+    color: rgb(89,89,89);
+    font-size: 22px;
+    text-decoration: none;
+    border: solid 4px rgb(89,89,89);
+
+}
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url(resources/img/evil_corp_video_bgbg.png) no-repeat; */
+    background-size: cover;
+}
+
+.page-header {
+    visibility: hidden;
+}

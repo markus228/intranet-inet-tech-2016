@@ -1,0 +1,108 @@
+{
+  "name" : "markus228/itechintranet",
+
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "rmm5t/jquery-timeago",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/rmm5t/jquery-timeago.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gagi270683/jQuery-bootstrap",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/gagi270683/jQuery-bootstrap.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "eltimn/jquery-bs-alerts",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/eltimn/jquery-bs-alerts.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "engineersamuel/jquery-filesize",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/engineersamuel/jquery-filesize.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "lightningtgc/MProgress.js",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/lightningtgc/MProgress.js",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "datatables/select",
+        "version": "1.1.2",
+        "dist": {
+          "url": "https://datatables.net/releases/Select-1.1.2.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ],
+
+  "require": {
+    "twbs/bootstrap": "3.3.4",
+    "aura/session": "2.0.1",
+    "components/jquery": "2.1.4",
+    "simplon/mysql": "0.7.0",
+    "onokumus/metismenu": "dev-master",
+    "components/font-awesome": "4.4.0",
+    "datatables/datatables": "dev-master",
+    "anahkiasen/html-object": "1.4.2",
+    "components/jqueryui": "1.11.4",
+    "makeusabrew/bootbox": "dev-master",
+    "rmm5t/jquery-timeago": "dev-master",
+    "gagi270683/jQuery-bootstrap" : "dev-master",
+    "phpunit/phpunit": "^4.8",
+    "crodas/notoj": "^1.2",
+    "mouse0270/bootstrap-growl": "^3.1",
+    "components/animate.css": "3.3.0.1",
+    "eltimn/jquery-bs-alerts" : "dev-master",
+    "engineersamuel/jquery-filesize" : "dev-master",
+    "drmonty/datatables-responsive": "^2.0",
+    "blueimp/jquery-file-upload": "^9.12",
+    "gargron/fileupload": "^1.1",
+    "mgargano/simplehtmldom": "^1.5",
+    "lightningtgc/MProgress.js": "dev-master",
+    "datatables/select": "1.1.2"
+  },
+
+  "autoload": {
+    "classmap": ["classes/"]
+  }
+}
